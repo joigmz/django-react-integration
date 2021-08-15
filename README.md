@@ -23,9 +23,21 @@ node --version
 ```  
 Si lo tenemos instalado deberia dar la versión en el terminal, usualmente se encuentra instalado en Mac OS, de no ser el caso la guia de instalacion se encuentra en https://nodejs.org/en/.
 
-5. Creamos la app de react 
+5. Creamos la app de react dentro de la carpeta de nuestro proyecto de Django
 ```
 npx create-react-app reactapp
+```
+La estructura de los archivos deberia ser la siguiente, tengala en consideracion para los siguientes pasos.
+```
+django_react
+│ 
+└───django_react
+│   │──__init__.py
+│   │──asgi.py
+│   │──settings.py
+│   │──urls.py
+│   └──wsgi.py
+└───reactapp
 ```
 6. Nos desplazamos al directorio de la app que acabamos de crear
 ```
@@ -38,17 +50,6 @@ yarn build
 
 8. Modificamos /settings.py
 
-```
-django_react
-│ 
-└───django_react
-│   │──__init__.py
-│   │──asgi.py
-│   │──settings.py
-│   │──urls.py
-│   └──wsgi.py
-└───reactapp
-``` 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En templates agregamos el path de nuestra build de la app de react
 ```python
 TEMPLATES = [
@@ -77,17 +78,7 @@ STATICFILES_DIRS = [
 ]
 ```
 9. Modificamos /urls.py
-```
-django_react
-│ 
-└───django_react
-│   │──__init__.py
-│   │──asgi.py
-│   │──settings.py
-│   │──urls.py
-│   └──wsgi.py
-└───reactapp
-```
+
 ```python
 from django.contrib import admin
 from django.urls import path
