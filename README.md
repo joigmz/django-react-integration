@@ -10,11 +10,11 @@ pip install Django
 ```
 2. Creamos el proyecto ejecutando
 ```
-django-admin startproject django-react
+django-admin startproject django_react
 ```
 3. Ingresamos a la carpeta del proyecto 
 ```
-cd django-react
+cd django_react
 ```
 4. Verificamos si tenemos instalado node js  
 
