@@ -2,4 +2,3 @@
 ## Stack
 * Django
 * React
-* Tailwind
