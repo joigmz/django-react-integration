@@ -48,7 +48,8 @@ cd reactapp
 yarn build
 ```
 
-8. Modificamos /settings.py
+8. Modificamos /settings.py  
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Importamos modulo os
 ```python
 import os
