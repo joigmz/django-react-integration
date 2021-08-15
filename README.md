@@ -49,7 +49,10 @@ yarn build
 ```
 
 8. Modificamos /settings.py
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Importamos modulo os
+```python
+import os
+```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En templates agregamos el path de nuestro build de la app de react
 ```python
 TEMPLATES = [
