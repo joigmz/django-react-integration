@@ -92,4 +92,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name = 'index.html'))
 ```
+
+10. Probamos
+```
+python manage.py runserver
+```
+Y si todo sale bien entonces deberiamos ver algo asi:
+<img src="video.gif" />  
 Tutorial creado por José Izam.
