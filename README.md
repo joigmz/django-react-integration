@@ -50,7 +50,7 @@ yarn build
 
 8. Modificamos /settings.py
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En templates agregamos el path de nuestra build de la app de react
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En templates agregamos el path de nuestro build de la app de react
 ```python
 TEMPLATES = [
     {
